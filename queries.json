@@ -1,0 +1,9 @@
+
+{
+       "insertUser": "INSERT INTO users(name, email, password, address, phone_number, age) VALUES (?, ?, ?, ?,?,?)",
+       "selectuser": "SELECT name, email from users where name = ? AND email = ? ",
+       "updateuser": "UPDATE users SET name = ?, email = ? WHERE  idusers = ? ",
+       "deltedata": "DELETE FROM users where name = ? "
+}
+
+
